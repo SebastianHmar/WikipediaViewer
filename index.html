@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Wikipedia Viewer | FCC</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<h1>Wikipedia Search</h1>
+		<input type="text" autofocus>
+		<input type="number" min="1" max="10" value="5">
+		<span id="info">Number of articles.<br>Must be between 1 and 10!</span>
+
+		<div class="buttons">
+			<button type="submit">Search</button>
+			<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><button>I'm feeling lucky!</button></a>
+		</div>
+		
+		<div class="wikiSearch">
+			
+		</div>
+	</div>
+	
+	<script src="script.js"></script>
+</body>
+</html>
